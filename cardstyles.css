@@ -1,0 +1,79 @@
+main {
+    display: flex;
+    margin: 150px 0 0 250px;    
+}
+@media only screen and (max-width: 600px) {
+    main {
+        display: block;
+    }
+}
+.sedan {
+    background-color: hsl(31, 77%, 52%);
+    font-size: 15px;
+    width: 150px;
+    height: 300px;
+    border-top-left-radius: 5px;
+    border-bottom-left-radius: 5px;
+    padding: 40px;
+}
+button{
+    margin: 10px 25px;
+    background-color: hsl(0, 0%, 95%);
+    padding: 10px;
+    border-radius: 20px;
+    color: hsl(0, 0%, 0% 0%);
+    border-color: hsl(0, 0%, 95%);
+    width: 100px;
+    border: 0px;
+    cursor: pointer;
+    transition: 0.5s;
+    border: 1px;
+}
+button:hover{
+background-color:rgba(76, 175, 80, 0.0) ;
+color: hsl(0, 0%, 95%);
+border: 2px;
+border-color: hsl(0, 0%, 95%);
+}
+.one{
+    color: hsl(31, 77%, 52%); 
+    
+}
+.two{
+   color:  hsl(184, 100%, 22%);
+}
+.three{
+    color: hsl(179, 100%, 13%);
+    margin-top: 0px;
+    
+}
+p {
+    color: hsla(0, 0%, 100%, 0.75);
+    text-align: center;
+    font-family: 'Lexend Deca', sans-serif;
+    font-size: 15px;
+}
+
+h1{
+    color: hsl(0, 0%, 95%);
+    font-family: 'Big Shoulders Display', cursive;
+}
+.suv {
+    background-color: hsl(184, 100%, 22%);
+    font-size: 15px;
+    width: 150px;
+    height: 300px;
+    padding: 40px;
+
+}
+
+.luxury {
+    background-color: hsl(179, 100%, 13%);
+    font-size: 15px;
+    width: 150px;
+    height: 300px;
+    border-top-right-radius: 5px;
+    border-bottom-right-radius: 5px;
+    padding: 40px;
+
+}
