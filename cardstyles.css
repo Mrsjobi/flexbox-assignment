@@ -1,12 +1,22 @@
-main {
+.container{
+    /*flex: 100%;
     display: flex;
-    margin: 150px 0 0 250px;    
+    margin: auto;   */
+    flex-wrap: wrap;
+    display: flex;
+    justify-content: center;
+    padding-top: 100px;
 }
-@media only screen and (max-width: 600px) {
-    main {
-        display: block;
+
+@media screen and (max-width: 600px) {
+    .container{width: 75%;}
+   /* .sedan {width: 25%}
+    .suv {width: 25%}
+    .luxury {width: 25%}*/
+
+        
     }
-}
+
 .sedan {
     background-color: hsl(31, 77%, 52%);
     font-size: 15px;
